@@ -1,0 +1,109 @@
+body{
+  background: #C4C4C4;
+}
+div.rowPesquisa
+{
+  padding-top: 15px;
+  background-color: #FFF;
+  padding-bottom: 5px;
+}
+
+.header{
+  background-color: #FFF;
+
+}
+div.tituloSite
+{
+  background-color:#0288d1;
+  color: #FFF;
+  font-weight: bold;
+  height: 30px;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 4px 0;
+  vertical-align: middle;
+}
+div.container100
+{
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.itemContato
+{
+  border-left: solid 1px #C4C4C4;
+  border-right: solid 1px #C4C4C4;
+  font-weight: bold;
+  height: 48px;
+  vertical-align: middle;
+}
+div.itemContato:first-child
+{
+  border-bottom:solid 1px #C4C4C4;
+}
+div.itemContato:last-child
+{
+  border-top:solid 1px #C4C4C4;
+}
+i.fa
+{
+  cursor: pointer;
+}
+#txtProcurarPessoa
+{
+  width: 100%;
+}
+
+#lnkProcurarPessoa
+{
+  cursor:pointer;;
+}
+#dvListaTelefones
+{
+  margin: 0 auto;
+  background-color: #FFF;
+}
+#dvListaTelefones:first-child
+{
+margin-top: 10px;
+
+}
+#dvListaTelefones:last-child
+{
+  box-shadow: rgba(0,0,0,0.3) 0 1px 4px 0;
+}
+
+.itemContato span
+{
+  width: 33%;
+  display: block;
+  float: left;
+}
+
+.centro
+{
+  text-align: center;
+}
+.direita
+{
+  text-align: right;
+}
+
+.circle-add
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #db4733;
+  position: fixed;
+  top:80%;
+  left: 80%;
+  cursor: pointer;
+}
+
+.circle-add > i
+{
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%) translateX(80%);
+  color: #FFF;
+
+}
